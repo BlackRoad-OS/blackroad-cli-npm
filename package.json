@@ -4,8 +4,8 @@
   "description": "Official CLI for BlackRoad APIs",
   "main": "dist/index.js",
   "bin": {
-    "blackroad": "./dist/cli.js",
-    "br": "./dist/cli.js"
+    "blackroad": "dist/cli.js",
+    "br": "dist/cli.js"
   },
   "scripts": {
     "build": "tsup src/cli.ts --format cjs --dts --clean",
